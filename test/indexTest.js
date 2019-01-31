@@ -2,7 +2,7 @@ const sinon = require( 'sinon' );
 
 describe( 'index.js', () => {
   describe( 'getFrontPage()', () => {
-    let astronauts;
+  
     let results;
     before( () => {
       xhr = sinon.useFakeXMLHttpRequest();
