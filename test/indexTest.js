@@ -1,7 +1,7 @@
 const sinon = require( 'sinon' );
 
 describe( 'index.js', () => {
-  describe( 'myFetch()', () => {
+  describe( 'getFrontPage()', () => {
     let astronauts;
     let results;
     before( () => {
