@@ -54,6 +54,8 @@ checked, refresh the page to see your DOM change.
 
 ## Conclusion
 
-## Resources
+If you've passed all the tests, you've successfully created your own XHR
+request, complete with some error handling! We've used an API to create a
+simplified version of one of the most popular sites on the internet!
 
 [front]: https://www.reddit.com/
