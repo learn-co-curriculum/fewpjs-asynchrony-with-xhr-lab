@@ -12,7 +12,7 @@ In this lab, we are going to practice creating an XHR request. To make things a
 bit more exciting, we will be incorporating some skills we've learned previously
 in JavaScript.
 Specifically, we're going to build our own version of
-[Reddit's front page][front] using their XHR, the Reddit API, and DOM
+[Reddit's front page][front] using XHR, the Reddit API, and DOM
 manipulation.
 
 Reddit is a forum based website that utilizes a voting system to display the
