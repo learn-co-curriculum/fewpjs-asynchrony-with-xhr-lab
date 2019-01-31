@@ -1,8 +1,7 @@
 const sinon = require( 'sinon' );
 
 describe( 'index.js', () => {
-  describe( 'myFetch()', () => {
-    let astronauts;
+  describe( 'getFrontPage()', () => {
     let results;
     before( () => {
       xhr = sinon.useFakeXMLHttpRequest();
