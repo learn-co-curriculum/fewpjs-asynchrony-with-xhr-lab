@@ -1,5 +1,7 @@
-const testVar = {}
+document.addEventListener( 'DOMContentLoaded', () => {
+  getFrontPage()
+} )
 
-function testFunc() {
-  return "hi"
+const getFrontPage = () => {
+  // Add your code here
 }
