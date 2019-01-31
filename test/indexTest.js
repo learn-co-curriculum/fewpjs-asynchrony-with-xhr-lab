@@ -22,11 +22,11 @@ describe( 'index.js', () => {
       xhr.restore();
     } );
 
-    it( "sends an XHR request to 'http://api.reddit.com'", () => {
+    it( "sends an XHR request to 'https://api.reddit.com'", () => {
       expect( requests.length ).to.eql( 0 );
       getFrontPage();
       expect( requests.length ).to.eql( 1 );
-      expect( requests[ 0 ][ 'url' ] ).to.eql( 'http://api.reddit.com' );
+      expect( requests[ 0 ][ 'url' ] ).to.eql( 'https://api.reddit.com' );
     } );
 
     it( 'sends a XHR GET request', () => {
